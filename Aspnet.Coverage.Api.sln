@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspnet.Coverage.Api", "Aspnet.Coverage.Api\Aspnet.Coverage.Api.csproj", "{BFC1D846-FFB4-474D-B58F-0F233D6D1161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspnet.Coverage.UnitTests", "Aspnet.Coverage.UnitTests\Aspnet.Coverage.UnitTests.csproj", "{4BE177B3-1722-47FB-95ED-C3617ABE9B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC1D846-FFB4-474D-B58F-0F233D6D1161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC1D846-FFB4-474D-B58F-0F233D6D1161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC1D846-FFB4-474D-B58F-0F233D6D1161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC1D846-FFB4-474D-B58F-0F233D6D1161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8D96435-E398-4857-A531-83EB9DF36D3F}
+	EndGlobalSection
+EndGlobal
