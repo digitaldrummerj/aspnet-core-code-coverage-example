@@ -2,7 +2,7 @@ using System;
 using Aspnet.Coverage.Api;
 using Xunit;
 
-namespace Aspnet.Coverage.UnitTests
+namespace Aspnet.Coverage.IntegrationTests
 {
     public class WeatherForecastTests
     {
@@ -11,14 +11,10 @@ namespace Aspnet.Coverage.UnitTests
         {
             WeatherForecast wf = new WeatherForecast
             {
-                Date = DateTime.Now,
-                Summary = "Sunny",
                 TemperatureC = 14
             };
 
-            const int expectedTemperatureF = 57;
-
-            Assert.Equal(expectedTemperatureF, wf.TemperatureF);
+            Assert.Equal(14, wf.TemperatureC);
 
 
         }

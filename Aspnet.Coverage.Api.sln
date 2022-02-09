@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspnet.Coverage.Api", "Aspnet.Coverage.Api\Aspnet.Coverage.Api.csproj", "{BFC1D846-FFB4-474D-B58F-0F233D6D1161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspnet.Coverage.Api", "Aspnet.Coverage.Api\Aspnet.Coverage.Api.csproj", "{BFC1D846-FFB4-474D-B58F-0F233D6D1161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspnet.Coverage.UnitTests", "Aspnet.Coverage.UnitTests\Aspnet.Coverage.UnitTests.csproj", "{4BE177B3-1722-47FB-95ED-C3617ABE9B46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspnet.Coverage.UnitTests", "Aspnet.Coverage.UnitTests\Aspnet.Coverage.UnitTests.csproj", "{4BE177B3-1722-47FB-95ED-C3617ABE9B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Coverage.IntegrationTests", "AspNet.Coverage.IntegrationTests\AspNet.Coverage.IntegrationTests.csproj", "{DBE96FD2-D13A-4219-B436-7CB05C1BF7AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE177B3-1722-47FB-95ED-C3617ABE9B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE96FD2-D13A-4219-B436-7CB05C1BF7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE96FD2-D13A-4219-B436-7CB05C1BF7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE96FD2-D13A-4219-B436-7CB05C1BF7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE96FD2-D13A-4219-B436-7CB05C1BF7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
